@@ -82,7 +82,7 @@ let purchase = () => {
                     let productInfo = res[0]
 
                     if (quantity <= productInfo.stock_quantity) {
-                        console.log(productInfo.product_name + "is in stock! Placing order now!")
+                        console.log(productInfo.product_name + " is in stock! Placing order now!")
                         console.log("\n")
 
                         // the updating query string
